@@ -1,0 +1,118 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #000000;
+    font-family: sans-serif;
+}
+
+/* Centers and Aligns Text */
+.centered {
+    margin: 0 auto;
+    width: 50%;
+    text-align: left;
+}
+
+/* Sets Styling, Positioning and Font Styling for Intro Text */
+.intro {
+    font-weight: 700;
+    font-size: 100px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+/* Sets styles and CSS animation values for typing animation*/
+.typing {
+    padding-top: 50px;
+    width: 28em;
+    position: absolute;
+    height: 120px;
+    opacity: 0;
+    margin: 0;
+    overflow: hidden;
+    -webkit-animation: type 24s steps(28);
+    animation: type 24s steps(28);
+}
+
+/* Sets delay for each animated word*/
+.typing:nth-child(2) {
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+}
+
+.typing:nth-child(3) {
+    -webkit-animation-delay: 15s;
+    animation-delay: 15s;
+}
+
+.typing:nth-child(4) {
+    -webkit-animation-delay: 23s;
+    animation-delay: 23s;
+}
+
+.typing:nth-child(5) {
+    -webkit-animation-delay: 31s;
+    animation-delay: 31s;
+}
+
+.typing:nth-child(6) {
+    -webkit-animation-delay: 39s;
+    animation-delay: 39s;
+}
+
+/* Keyframes for animation */
+@keyframes type {
+    0% {
+        opacity: 0;
+        width: 0;
+    }
+
+    2% {
+        opacity: 1;
+    }
+
+    14% {
+        opacity: 1;
+        width: 12ch;
+    }
+
+    26% {
+        opacity: 1;
+        width: 0;
+    }
+
+    27% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes type {
+    0% {
+        opacity: 0;
+        width: 0;
+    }
+
+    2% {
+        opacity: 1;
+    }
+
+    14% {
+        opacity: 1;
+        width: 12ch;
+    }
+
+    26% {
+        opacity: 1;
+        width: 0;
+    }
+
+    27% {
+        opacity: 0;
+    }
+}
+
+/* Positions Main Text */
+.main-block {
+    transform: translate(0, 40%);
+}

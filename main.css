@@ -1,0 +1,42 @@
+body {
+    background-color:black;
+    position: relative;
+
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin: 0;
+    text-align: center;
+}
+.button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 26px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none; /* Remove default underline for links */
+}
+
+.hero h1{
+    font-weight: 1000;
+    font-size: 80px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: wavy;
+    color-interpolation-filters: auto;
+    color: lightsalmon;
+}
+
+.hero h5{
+    font-size: 30px;
+    font-weight:500;
+    left:1000px;
+    position: relative;
+    color: bisque;
+}
